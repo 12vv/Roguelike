@@ -9,7 +9,6 @@ public class RoguelikeEditorTarget : TargetRules
 	{
 		Type = TargetType.Editor;
 		DefaultBuildSettings = BuildSettingsVersion.V2;
-		IncludeOrderVersion = EngineIncludeOrderVersion.Unreal5_1;
-		ExtraModuleNames.Add("Roguelike");
+		ExtraModuleNames.AddRange( new string[] { "Roguelike" } );
 	}
 }
